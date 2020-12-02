@@ -1,5 +1,8 @@
 * Advent of code 2020:
   This repo will contain my solutions for aoc2020.
 ** Solutions:
-*** day1: done
-    
+*** 1: done
+    - Brute force method
+    - Two pointer method
+*** 2: done
+    -     
