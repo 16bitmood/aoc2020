@@ -15,7 +15,7 @@ ans2 = [x*y*z for x in nums for y in nums for z in nums if x+y+z == 2020]
 print("1:", ans1[0])
 print("2:", ans2[0])
 
-print("Time: %f.5 sec" % (time.time() - start_time))
+print("Time: %f sec" % (time.time() - start_time))
 
 # Brute force only 1:
 start_time = time.time()
@@ -44,7 +44,7 @@ for x in nums:
     if found:
         break
 
-print("Time: %f.5 sec" % (time.time() - start_time))
+print("Time: %f sec" % (time.time() - start_time))
 
 # something else
 print("Something else")

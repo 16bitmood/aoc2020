@@ -5,4 +5,5 @@
     - Brute force method
     - Two pointer method
 *** 2: done
-    -     
+    - Simple parsing using split 
+    - Parsing using regex
