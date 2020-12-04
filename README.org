@@ -1,9 +1,11 @@
 * Advent of code 2020:
   This repo will contain my solutions for aoc2020.
 ** Solutions:
-*** 1: done
-    - Brute force method
-    - Two pointer method
-*** 2: done
-    - Simple parsing using split 
+*** DONE Day 1: Report Repair
+    - Brute force
+    - Two pointer
+*** DONE Day 2: Password Philosophy 
+    - Simple parsing using split
     - Parsing using regex
+*** DONE Day 3: Toboggan Trajectory
+*** DONE Day 4: Passport Processing
