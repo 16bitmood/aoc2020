@@ -8,3 +8,7 @@
 *** DONE Day 3: Toboggan Trajectory
 *** DONE Day 4: Passport Processing
 *** DONE Day 5: Binary Boarding
+    - Converting using the method given in examples.
+    - Converting to int directly (eg, "BFBFFBF" to "1010010")
+
+
