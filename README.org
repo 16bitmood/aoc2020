@@ -1,6 +1,4 @@
 * Advent of code 2020:
-  This repo will contain my solutions for aoc2020.
-** Solutions:
 *** DONE Day 1: Report Repair
     - Brute force
     - Two pointer
@@ -9,3 +7,4 @@
     - Parsing using regex
 *** DONE Day 3: Toboggan Trajectory
 *** DONE Day 4: Passport Processing
+*** DONE Day 5: Binary Boarding
