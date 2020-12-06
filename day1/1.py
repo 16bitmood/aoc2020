@@ -19,35 +19,18 @@ print("Time: %f sec" % (time.time() - start_time))
 
 # Brute force only 1:
 start_time = time.time()
-print("Brute force exit on first solution")
+print("Brute force only one solution")
 
-found = False
-for x in nums:
-    for y in nums:
-        if x+y == 2020:
-            print("1: ", x*y)
-            found = True
-            break
-    if found:
-        break
+ans1 = (x*y for x in nums for y in nums if x+y == 2020)
+ans2 = (x*y*z for x in nums for y in nums for z in nums if x+y+z == 2020)
 
-found = False
-for x in nums:
-    for y in nums:
-        for z in nums:
-            if x+y+z == 2020:
-                print("2: ", x*y*z)
-                found = True
-                break
-        if found:
-            break
-    if found:
-        break
+print("1:", ans1.__next__())
+print("2:", ans2.__next__())
 
 print("Time: %f sec" % (time.time() - start_time))
 
-# something else
-print("Something else")
+# Two Pointer
+print("Two Pointer")
 start_time = time.time()
 
 nums.sort()
