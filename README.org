@@ -14,3 +14,5 @@
     - Converting to int directly (eg, "BFBFFBF" to "1010010")
 *** DONE Day 6: Custom Customs
     - Using set intersection and union
+*** DONE Day 7: Handy Haversacks
+    - First recursive challenge
