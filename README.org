@@ -1,18 +1,20 @@
 * Advent of code 2020:
-*** DONE Day 1: Report Repair
-    - Brute force
-    - Two pointer
-*** DONE Day 2: Password Philosophy 
-    - Simple parsing using split
-    - Parsing using regex
-*** DONE Day 3: Toboggan Trajectory
-    - Using modular arithmetic
-*** DONE Day 4: Passport Processing
-    - Using dictionary and =split()= ing everything
-*** DONE Day 5: Binary Boarding
-    - Converting using the method given in examples.
-    - Converting to int directly (eg, "BFBFFBF" to "1010010")
-*** DONE Day 6: Custom Customs
-    - Using set intersection and union
-*** DONE Day 7: Handy Haversacks
-    - First recursive challenge
+**** DONE Day 1: Report Repair
+     - Brute force
+     - Two pointer
+**** DONE Day 2: Password Philosophy 
+     - Simple parsing using split
+     - Parsing using regex
+**** DONE Day 3: Toboggan Trajectory
+     - Using modular arithmetic
+**** DONE Day 4: Passport Processing
+     - Using dictionary and =split()= ing everything
+**** DONE Day 5: Binary Boarding
+     - Converting using the method given in examples.
+     - Converting to int directly (eg, "BFBFFBF" to "1010010")
+**** DONE Day 6: Custom Customs
+     - Using set intersection and union
+**** DONE Day 7: Handy Haversacks
+     - First Recursive Challenge!
+**** DONE Day 8: Handheld Halting
+     - First VM Challenge!
