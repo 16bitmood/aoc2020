@@ -40,10 +40,11 @@ vm = VM(dat)
 print("one: ", vm.exec_till_loops_or_done()[0])
 
 for ip in vm.visited:
-    if (inst := vm.code[ip][0]) in ['nop', 'jmp']:
+    if (inst := vm.code[ip][0]) in ('nop', 'jmp'):
         new_dat = copy.deepcopy(dat)
         new_dat[ip][0] = 'nop' if inst == 'jmp' else 'nop'
         temp_vm = VM(new_dat)
         acc, completed = temp_vm.exec_till_loops_or_done()
         if completed:
             print("two: ", acc)
+            quit()

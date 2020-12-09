@@ -18,3 +18,5 @@
      - First Recursive Challenge!
 **** DONE Day 8: Handheld Halting
      - First VM Challenge!
+**** DONE Day 9: Encoding Error
+     - Reusing day1 code
