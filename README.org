@@ -20,3 +20,5 @@
      - First VM Challenge!
 **** DONE Day 9: Encoding Error
      - Reusing day1 code
+**** DONE Day 10: Adapter Array
+     - Dynamic Programming

@@ -28,7 +28,7 @@ class VM:
         else:
             print(inst, "Op not supported")
 
-    def exec_till_loops_or_done(self, debug=False):
+    def exec_till_done(self, debug=False):
         while self.ip < len(self.code):
             if self.ip in self.visited:
                 return self.acc, False
@@ -37,14 +37,17 @@ class VM:
 
 
 vm = VM(dat)
-print("one: ", vm.exec_till_loops_or_done()[0])
+print("one: ", vm.exec_till_done()[0])
 
 for ip in vm.visited:
     if (inst := vm.code[ip][0]) in ('nop', 'jmp'):
+
         new_dat = copy.deepcopy(dat)
         new_dat[ip][0] = 'nop' if inst == 'jmp' else 'nop'
+
         temp_vm = VM(new_dat)
-        acc, completed = temp_vm.exec_till_loops_or_done()
+        acc, completed = temp_vm.exec_till_done()
+
         if completed:
             print("two: ", acc)
             quit()
