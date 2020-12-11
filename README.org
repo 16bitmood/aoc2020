@@ -22,3 +22,5 @@
      - Reusing day1 code
 **** DONE Day 10: Adapter Array
      - Dynamic Programming
+**** DONE Day 11: Seating System
+     - kinda like conway's game of life
