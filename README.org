@@ -24,3 +24,5 @@
      - Dynamic Programming
 **** DONE Day 11: Seating System
      - kinda like conway's game of life
+**** DONE Day 12: Rain Risk
+     - Rotating Vectors
