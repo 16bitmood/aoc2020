@@ -26,3 +26,7 @@
      - kinda like conway's game of life
 **** DONE Day 12: Rain Risk
      - Rotating Vectors
+**** DONE Day 13: Shuttle Search
+     - Semi-esoteric number theory algos
+**** DONE Day 14: Docking Data
+     - ~&|
