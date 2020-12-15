@@ -30,3 +30,5 @@
      - Semi-esoteric number theory algos
 **** DONE Day 14: Docking Data
      - ~&|
+**** DONE Day 15: Rambunctious Recitation
+     - dicts and lists
