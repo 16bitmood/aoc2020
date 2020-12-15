@@ -4,15 +4,8 @@ start = [2, 0, 1, 9, 5, 19]
 def solve(index):
     seq = [None]*index
     seq[:len(start)] = start
-
-    def get_indexes(arr, num):
-        indexes = []
-        for i in range(len(arr)):
-            if arr[i] == num:
-                indexes.append(i)
-        return indexes
-
     spoken_at = {}
+
     for i in range(len(start)):
         spoken_at[seq[i]] = [i]
 
