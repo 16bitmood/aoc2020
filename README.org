@@ -32,3 +32,5 @@
      - ~&|
 **** DONE Day 15: Rambunctious Recitation
      - dicts and lists
+**** DONE Day 16: Ticket Translation
+     - dicts and lists and sets and awful ad-hoc parsers
