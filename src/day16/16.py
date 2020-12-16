@@ -49,7 +49,7 @@ def two():
         possible[i] = set.intersection(
             *(possible_fields(t[i]) for t in valid_tickets))
     while True:
-        fixed = {list(f)[0] for i, f in enumerate(possible) if len(f) == 1}
+        fixed = {list(f)[0] for f in possible if len(f) == 1}
         for i, p in enumerate(possible):
             if len(p) == 1:
                 continue
