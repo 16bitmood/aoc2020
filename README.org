@@ -34,3 +34,5 @@
      - dicts and lists
 **** DONE Day 16: Ticket Translation
      - dicts and lists and sets and awful ad-hoc parsers
+**** DONE Day 17: Conway Cubes
+     - Very Inefficient n-dimensional matrix representation
